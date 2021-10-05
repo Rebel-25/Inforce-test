@@ -1,0 +1,14 @@
+.myBtn {
+    width: 150px;
+    height: 45px;
+    margin: 15px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  #cancelBtn {
+    background-color: crimson;
+  }

@@ -1,0 +1,38 @@
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0,0,0, 0.5);
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.myModalContent {
+    width: 500px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    
+}
+
+.myModal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myModalTitle {
+  margin: 10px;
+}
+
+
+ #MyModalCheangStyle{
+  align-content: flex-start;
+}
